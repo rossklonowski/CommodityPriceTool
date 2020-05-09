@@ -1,8 +1,8 @@
 var AWS = require('aws-sdk'); // Load the AWS SDK for Node.js
 
 AWS.config.update({
-    accessKeyId: 'XXXXXXXXXXXXX',                            // Key ID for AWS
-    secretAccessKey: 'XXXXXXXXXXXX',    // Secret Key ID for AWS
+    accessKeyId: 'AKIATNEENNUFRCNNE264',                            // Key ID for AWS
+    secretAccessKey: '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',    // Secret Key ID for AWS
     region: 'us-east-2'
 });
 
