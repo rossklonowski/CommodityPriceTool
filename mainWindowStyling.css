@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(fonts/gotham-medium/Gotham-Medium.otf);
+}
+
+body, html {
+    font-family: Gotham-Medium;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainBox {
+    background-color: rgb(218, 218, 218);
+    position: relative;
+    padding-top: 20px;
+    height: 480px;
+    width: 500px;
+}
+
+#movableBox{
+    width: max-content;
+    height: 20px;
+    background-color: rgb(0, 72, 136);
+    top: 0px;
+    margin: 0px;
+    padding: 0%;
+    position: absolute;
+    z-index: 5;
+}
+
+#commodity-prices{
+    position: absolute;
+    left: 60px;
+}
+
+#commodity-text{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#price-per-unit-text{
+    position: absolute;
+    top: 100px;
+    left: 260px;
+}
+
+#corn-text{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+#soybean-text{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+#wheat-text{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+
+#edit-price{
+    font-family: 'Gotham-Medium';
+    position: absolute;
+    top: 440px;
+    left: 140px;
+}
+
+#refresh-button{
+    font-family: 'Gotham-Medium';
+    position: absolute;
+    top: 440px;
+    left: 280px;
+}

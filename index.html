@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mainWindowStyling.css"/>
+        <link rel="stylesheet" type="text/css" href="table-entries.css"/>
+    </head>
+    <body onload="getCost('Heritage Co-op'); getCost('LE Sommer')">
+        <div id="mainBox">
+            <h1 id="commodity-prices">Commodity Price Tool</h1>
+            <p id="commodity-text">Commodity</p>
+            <p id="price-per-unit-text">Price/ Bushel</p>
+            <p id="corn-text">Corn</h1>
+            <p id="soybean-text">Soybeans</p>
+            <p id="wheat-text">Wheat</p>
+            <button id="edit-price">Change Price</button>
+            <button id="refresh-button">Refresh</button>
+            <input id="MP-1-corn" type="text">
+            <input id="MP-2-corn" type="text">
+            <input id="MP-1-soybean" type="text">
+            <input id="MP-2-soybean" type="text">
+            <input id="MP-1-wheat" type="text">
+            <input id="MP-2-wheat" type="text">
+            <div id="movableBox" draggable="true"></div>
+        </div>
+        <script src="./renderer.js"></script>
+        <script src="./interfacing.js"></script>
+    </body>
+</html>
